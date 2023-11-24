@@ -1,6 +1,9 @@
+body {
+    background-color: #0489aa;
+}
+
 .cad {
     width: 400px;
-    height: 550px;
     background-color: #fff;
     position: relative;
     margin: auto;
@@ -64,6 +67,11 @@ h1 {
     position: relative;
     margin: 50px auto;
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
 }
 
 button {
@@ -74,7 +82,7 @@ button {
     font-weight: 500;
     color: #fff;
     background-color: #0489aa;
-    border: 1px #0489aa solid;
+    border: none;
     border-radius: 45px;
     transition: all 0.3s ease 0s;
     cursor: pointer;

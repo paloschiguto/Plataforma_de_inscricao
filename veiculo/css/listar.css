@@ -1,0 +1,107 @@
+h1 {
+    text-align: center;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #0489aa;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 0.6em 0.5em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn_alterar {
+    background-color: #04aa36;
+    border: 1px #04aa36 solid;
+}
+
+.btn_alterar:hover {
+    background-color: #ffffff;
+    border: 1px #04aa36 solid;
+    color: #04aa36;
+}
+
+#alt {
+    color: #ffffff;
+}
+
+#alt:hover {
+    color: #04aa36;
+}
+
+.btn_deletar {
+    background-color: #aa0404;
+    border: 1px #aa0404 solid;
+}
+
+.btn_deletar:hover {
+    background-color: #ffffff;
+    border: 1px #aa0404 solid;
+    color: #aa0404;
+}
+
+#del {
+    color: #ffffff;
+}
+
+#del:hover {
+    color: #aa0404;
+}
+
+.novo_participante {
+    margin-left: 79%;
+    width: 16%;
+    background-color: #0489aa;
+}
+
+.novo_participante:hover {
+    margin-left: 79%;
+    width: 16%;;
+    background-color: #ffffff;
+    color: #0489aa;
+    border: 2px #0489aa solid;
+}
+
+#add{
+    color: #ffffff;
+}
+#add:hover{
+    color: #0489aa;
+}

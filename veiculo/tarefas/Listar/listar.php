@@ -1,23 +1,31 @@
 <?php
 include '../../../conexao.php';
-
-$sql = "SELECT * FROM participante";
+$sql = "SELECT veiculo.id as ID,
+               veiculo.modelo as Modelo,
+               veiculo.marca as Marca,
+               veiculo.ano_fabricacao,
+               veiculo.placa as Placa,
+               participante.nome as Participante,
+               veiculo.criado as Criado,
+               veiculo.atualizado as Atualizado
+        FROM veiculo
+        LEFT JOIN participante on veiculo.participante_id = participante.id";
 $result = $conexao->query($sql);
 ?>
 
 <head>
     <link rel="stylesheet" href="../../css/listar.css">
 </head>
-<h1>Participantes</h1>
+<h1>Veículos</h1>
 <table id="customers" border="1">
     <thead>
         <tr>
             <th>ID</th>
-            <th>Nome</th>
-            <th>CPF</th>
-            <th>Email</th>
-            <th>Endereco</th>
-            <th>Cidade</th>
+            <th>Modelo</th>
+            <th>Marca</th>
+            <th>Ano de fabricação</th>
+            <th>Placa</th>
+            <th>Participante</th>
             <th>Criado</th>
             <th>Atualizado</th>
             <th>Ações</th>
@@ -32,13 +40,13 @@ $result = $conexao->query($sql);
             while ($row = $result->fetch_assoc()) {
                 echo "<tr>";
                 echo "<td>" . $row["ID"] . "</td>";
-                echo "<td>" . $row["NOME"] . "</td>";
-                echo "<td>" . $row["CPF"] . "</td>";
-                echo "<td>" . $row["EMAIL"] . "</td>";
-                echo "<td>" . $row["ENDERECO"] . "</td>";
-                echo "<td>" . $row["CIDADE"] . "</td>";
-                echo "<td>" . $row["CRIADO"] . "</td>";
-                echo "<td>" . $row["ATUALIZADO"] . "</td>";
+                echo "<td>" . $row["Modelo"] . "</td>";
+                echo "<td>" . $row["Marca"] . "</td>";
+                echo "<td>" . $row["ano_fabricacao"] . "</td>";
+                echo "<td>" . $row["Placa"] . "</td>";
+                echo "<td>" . $row["Participante"] . "</td>";
+                echo "<td>" . $row["Criado"] . "</td>";
+                echo "<td>" . $row["Atualizado"] . "</td>";
                 echo "<td>
                         <button class='btn_alterar'>
                             <a id='alt' href='../Alterar/alterar.php?ID=" . $row["ID"] . "'>Alterar</a>
@@ -57,7 +65,7 @@ $result = $conexao->query($sql);
 </table><br>
 
 <button class="novo_participante">
-    <a id="add" href="../Adicionar/adicionar.php">Adicionar novo participante</a>
+    <a id="add" href="../Adicionar/adicionar.php">Adicionar novo veúculo</a>
 </button>
 
 

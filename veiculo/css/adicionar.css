@@ -1,6 +1,9 @@
+body {
+    background-color: #0489aa;
+}
+
 .cad {
     width: 400px;
-    height: 550px;
     background-color: #fff;
     position: relative;
     margin: auto;
@@ -62,8 +65,8 @@ h1 {
 
 .input-btn {
     position: relative;
-    margin: 50px auto;
-    width: 200px;
+    margin: 10px auto auto auto ;
+    width: 180px;
 }
 
 button {
@@ -86,4 +89,37 @@ button:hover {
     color: #0489aa;
     border: 1px #0489aa solid;
     border-radius: 45px;
+}
+
+#participante_id {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0489aa;
+    color: #0489aa;
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#participante_id:hover {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0489aa;
+    background-color: #0489aa;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+option{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #0489aa;
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
+    font-size: 16px;
 }

@@ -5,7 +5,7 @@
 include '../../../conexao.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $id = $_POST['id'];
+    $id = $_POST['ID'];
     $nome = $_POST['nome'];
     $cpf = $_POST['cpf'];
     $email = $_POST['email'];
