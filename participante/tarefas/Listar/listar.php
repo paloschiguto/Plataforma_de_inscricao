@@ -57,9 +57,11 @@ $result = $conexao->query($sql);
 </table><br>
 
 <button class="novo_participante">
-    <a id="add" href="../Adicionar/adicionar.php">Adicionar novo participante</a>
+    <a id="add_participante" href="../Adicionar/adicionar.php">Adicionar novo participante</a>
 </button>
-
+<button class="novo_veiculo">
+    <a id="add_veiculo" href="../../../veiculo/tarefas/Adicionar/adicionar.php">Adicionar novo veiculo</a>
+</button>
 
 
 <?php

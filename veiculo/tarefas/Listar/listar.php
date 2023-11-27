@@ -64,8 +64,12 @@ $result = $conexao->query($sql);
     </tbody>
 </table><br>
 
+<button class="novo_veiculo">
+    <a id="add_veiculo" href="../Adicionar/adicionar.php">Adicionar novo veículo</a>
+</button>
+
 <button class="novo_participante">
-    <a id="add" href="../Adicionar/adicionar.php">Adicionar novo veúculo</a>
+    <a id="add_participante" href="../../../participante/tarefas/Adicionar/adicionar.php">Adicionar novo participante</a>
 </button>
 
 

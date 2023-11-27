@@ -85,23 +85,47 @@ button {
     color: #aa0404;
 }
 
-.novo_participante {
-    margin-left: 79%;
-    width: 16%;
+.novo_veiculo {
+    margin-left: 76%;
+    width: 19%;
     background-color: #0489aa;
 }
 
-.novo_participante:hover {
-    margin-left: 79%;
-    width: 16%;;
+.novo_veiculo:hover {
+    margin-left: 76%;
+    width: 19%;
     background-color: #ffffff;
     color: #0489aa;
     border: 2px #0489aa solid;
 }
 
-#add{
+#add_veiculo {
     color: #ffffff;
 }
-#add:hover{
+
+#add_veiculo:hover {
     color: #0489aa;
+}
+
+.novo_participante {
+    margin-left: 76%;
+    width: 19%;
+    background-color: #aa9904;
+    margin-top: 5px;
+}
+
+.novo_participante:hover {
+    margin-left: 76%;
+    width: 19%;
+    background-color: #ffffff;
+    color: #aa9904;
+    border: 2px #aa9904 solid;
+}
+
+#add_participante {
+    color: #ffffff;
+}
+
+#add_participante:hover {
+    color: #aa9904;
 }

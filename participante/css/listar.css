@@ -93,15 +93,37 @@ button {
 
 .novo_participante:hover {
     margin-left: 76%;
-    width: 19%;;
+    width: 19%;
     background-color: #ffffff;
     color: #0489aa;
     border: 2px #0489aa solid;
 }
 
-#add{
+#add_participante{
     color: #ffffff;
 }
-#add:hover{
+#add_participante:hover{
     color: #0489aa;
+}
+
+.novo_veiculo {
+    margin-left: 76%;
+    width: 19%;
+    background-color: #aa9904;
+    margin-top: 5px;
+}
+
+.novo_veiculo:hover {
+    margin-left: 76%;
+    width: 19%;
+    background-color: #ffffff;
+    color: #aa9904;
+    border: 2px #aa9904 solid;
+}
+
+#add_veiculo{
+    color: #ffffff;
+}
+#add_veiculo:hover{
+    color: #aa9904;
 }
