@@ -1,0 +1,85 @@
+body{
+    background-color: #0489aa;
+}
+.card {
+    width: 400px;
+    height: 550px;
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    border: 2px #0489aa solid;
+    border-radius: 30px;
+}
+
+h2 {
+    margin-top: 10%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    margin-top: -15px;
+    margin-left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.introducao {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btns {
+    width: 300px;
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    border: 2px #0489aa solid;
+    border-radius: 10px;
+}
+
+button {
+    padding: 1em 1em;
+    width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #0489aa;
+    border: 1px #0489aa solid;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+}
+
+button:hover {
+    background-color: #fff;
+    color: #0489aa;
+    border: 1px #0489aa solid;
+    border-radius: 10px;
+}
+
+.btn_participante {
+    padding: 10px;
+}
+
+.txt {
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+.add_participante {
+    margin-bottom: 15px;
+}
+
+.btn_veiculo {
+    padding: 10px;
+}
+
+.add_veiculo {
+    margin-bottom: 15px;
+}

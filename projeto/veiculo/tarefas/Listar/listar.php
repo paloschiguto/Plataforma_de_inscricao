@@ -48,12 +48,8 @@ $result = $conexao->query($sql);
                 echo "<td>" . $row["Criado"] . "</td>";
                 echo "<td>" . $row["Atualizado"] . "</td>";
                 echo "<td>
-                        <button class='btn_alterar'>
-                            <a id='alt' href='../Alterar/alterar.php?ID=" . $row["ID"] . "'>Alterar</a>
-                        </button>
-                        <button class='btn_deletar'>
-                            <a id='del' href='../Excluir/deletar.php?ID=" . $row["ID"] . "'>Deletar</a>
-                        </button> 
+                        <a id='alt' href='../Alterar/alterar.php?ID=" . $row["ID"] . "'><button class='btn_alterar'>Alterar</button></a>
+                        <a id='del' href='../Excluir/deletar.php?ID=" . $row["ID"] . "'><button class='btn_deletar'>Deletar</button></a> 
                     </td>";
                 echo "</tr>";
             }
@@ -64,13 +60,9 @@ $result = $conexao->query($sql);
     </tbody>
 </table><br>
 
-<button class="novo_veiculo">
-    <a id="add_veiculo" href="../Adicionar/adicionar.php">Adicionar novo veículo</a>
-</button>
-
-<button class="novo_participante">
-    <a id="add_participante" href="../../../participante/tarefas/Adicionar/adicionar.php">Adicionar novo participante</a>
-</button>
+<a href="../Adicionar/adicionar.php"><button class="add_veiculo">Adicionar novo veículo</button></a>
+<a href="../../../participante/tarefas/Adicionar/adicionar.php"><button class="add_participante">Adicionar novo
+        participante</button></a>
 
 
 

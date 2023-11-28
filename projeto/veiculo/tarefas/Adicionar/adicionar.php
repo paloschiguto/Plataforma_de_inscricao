@@ -24,7 +24,7 @@ include '../../../default/header/header.php';
             </div>
 
             <div class="input-container">
-                <input name="ano_fabricacao" type="text" class="input " required>
+                <input id="ano_fabricacao" name="ano_fabricacao" type="text" class="input " required>
                 <label for="ano_fabricacao" class="label">Ano de Fabricação</label>
                 <div class="underline"></div>
             </div>
