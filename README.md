@@ -1,5 +1,10 @@
 # Plataforma de Inscrição
 Projeto final - Plataforma de Inscrição
 
-Acesso a tela inicial do projeto 
-http://localhost/plataforma_inscricao/acesso/
+<style>
+  a{
+    text-decoration: none;
+  }
+</style>
+Acesso a tela inicial do projeto <br>
+<a href="http://localhost/plataforma_inscricao/acesso/">
