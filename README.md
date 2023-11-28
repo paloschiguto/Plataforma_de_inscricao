@@ -1,2 +1,2 @@
-Plataforma de Inscricao
+# Plataforma de Inscrição
 Projeto final - Plataforma de Inscrição
