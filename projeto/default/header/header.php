@@ -84,7 +84,6 @@
 </head>
 
 <nav class="dp-menu">
-
     <ul>
         <h4 class="txt">Plataforma de Inscrição</h4>
         <li>

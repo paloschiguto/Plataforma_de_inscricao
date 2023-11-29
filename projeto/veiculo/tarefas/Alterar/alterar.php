@@ -9,11 +9,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $id = $_POST['id'];
     $modelo = $_POST['modelo'];
     $marca = $_POST['marca'];
-    $ano_fabricacao = $_POST['ano_fabricacao'];
+    $ano_fabricacao = $_POST['ano_fabrucacao'];
     $placa = $_POST['placa'];
 
     $sql_update = "UPDATE veiculo 
-            SET modelo='$modelo', MARCA='$marca', ANO_FABRICACAO='$ano_fabricacao', PLACA='$placa'
+            SET MODELO='$modelo', MARCA='$marca', ANO_FABRICACAO='$ano_fabricacao', PLACA='$placa'
             WHERE id=$id";
     if ($conexao->query($sql_update) === TRUE) {
         header("Location: ../Listar/listar.php");

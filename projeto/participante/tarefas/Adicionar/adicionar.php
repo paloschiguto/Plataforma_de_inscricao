@@ -62,7 +62,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             participante (nome, cpf, email, endereco, cidade)
         VALUES
             ('$nome','$cpf','$email','$endereco','$cidade')";
-
     if ($conexao->query($sql) === TRUE) {
         header("Location: ../Listar/listar.php");
     } else {

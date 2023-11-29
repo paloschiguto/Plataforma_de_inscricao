@@ -37,8 +37,8 @@ $result = $conexao->query($sql);
                 echo "<td>" . $row["EMAIL"] . "</td>";
                 echo "<td>" . $row["ENDERECO"] . "</td>";
                 echo "<td>" . $row["CIDADE"] . "</td>";
-                echo "<td>" . $row["CRIADO"] . "</td>";
-                echo "<td>" . $row["ATUALIZADO"] . "</td>";
+                echo "<td>" . date('d-m-Y H:i:s', strtotime($row["CRIADO"])) . "</td>";
+                echo "<td>" . date('d-m-y H:i:s', strtotime($row["ATUALIZADO"])) . "</td>";
                 echo "<td>
                         <a id='alt' href='../Alterar/alterar.php?ID=" . $row["ID"] . "'><button class='btn_alterar'>Alterar</button></a>
                         <a id='del' href='../Excluir/deletar.php?ID=" . $row["ID"] . "'><button class='btn_deletar'>Deletar</button></a> 
